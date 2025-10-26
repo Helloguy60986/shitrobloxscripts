@@ -1,0 +1,10 @@
+local player = game.Players.LocalPlayer
+local gui = Instance.new("ScreenGui", player.PlayerGui)
+local label = Instance.new("TextLabel", gui)
+label.Size = UDim2.new(1, 0, 0, 50)
+label.Position = UDim2.new(0, 0, 0, 0)
+label.BackgroundTransparency = 1
+label.Text = "I am NOT making a goon button"
+label.TextColor3 = Color3.new(1, 0, 0)
+label.TextScaled = true
+label.Font = Enum.Font.SourceSansBold
